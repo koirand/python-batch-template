@@ -17,7 +17,7 @@ docker run \
     --rm \
     -e ENV=development \
     batch:latest \
-    python src/exec-sql.py --options {sql-name}.sql
+    python src/{file-name}.py
 ```
 
 ## Requirement
