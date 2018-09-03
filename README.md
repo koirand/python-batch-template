@@ -10,6 +10,7 @@ pip install configparser mysql-connector-python-rf
 python src/{file-name}.py
 # Execute sql of MySQL
 python src/exec-sql.py --options {sql-name}.sql
+
 # For Docker
 docker build -t batch:latest .
 docker run \
@@ -19,5 +20,5 @@ docker run \
     python src/exec-sql.py --options {sql-name}.sql
 ```
 
-### Requirement
+## Requirement
 - Python3
