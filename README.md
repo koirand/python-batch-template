@@ -7,6 +7,7 @@ Template for executing python batch process.
 pip install configparser mysql-connector-python-rf
 
 # Execute python script
+export ENV=development
 python src/{file-name}.py
 # Execute sql of MySQL
 python src/exec-sql.py --options {sql-name}.sql
